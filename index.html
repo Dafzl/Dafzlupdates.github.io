@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daoud Afzal Folio.</title>
+    <link rel="stylesheet" href="Code/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32b5958351.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!----------------------Home---------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li class="btn"><a href="#contact">Contact Me</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h3>Hi, There!</h3>
+                <h1>I'm <span class="input"></span></h1>
+                <p>I'm trying to learn programming and this is my first website.</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------About----------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Man.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsa omnis nesciunt eius ab praesentium, labore ullam totam maxime aliquid! Commodi odit eaque optio ratione quasi amet laborum cupiditate soluta?</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('me')">Me</p>
+                        <p class="tab-links" onclick="opentab('experience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="me">
+                        <ul>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                            <li><span>Sorry</span><br>Yet to be updated</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------Skills------------------------>
+    <div class="container">
+        <h1 class="sub-title" style="margin-top: 50px;">My Skills</h1>
+        <div class="skill">
+            <h2>- Working</h2>
+            <li><h3>Leadership</h3>
+                <span class="bar"><span class="leadership"></span></span>
+            </li>
+            <li><h3>Teamwork</h3>
+                <span class="bar"><span class="teamwork"></span></span>
+            </li>
+            <li><h3>Communication</h3>
+                <span class="bar"><span class="communication"></span></span>
+            </li>
+            <br>
+            <h2>- Coding</h2>
+            <li><h3>HTML</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>CSS</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>JAVASCRIPT</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+        </div>
+    </div>
+    
+
+    <!----------------------Services------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam laborum maxime sequi atque aperiam ratione! Sequi dolorum totam dignissimos perferendis, voluptate provident optio, magni beatae error alias, repellat sapiente quasi?</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam laborum maxime sequi atque aperiam ratione! Sequi dolorum totam dignissimos perferendis, voluptate provident optio, magni beatae error alias, repellat sapiente quasi?</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam laborum maxime sequi atque aperiam ratione! Sequi dolorum totam dignissimos perferendis, voluptate provident optio, magni beatae error alias, repellat sapiente quasi?</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <!---------------------Portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Man.jpg">
+                    <div class="layer">
+                        <h3>No works yet</h3>
+                        <p>Will be coming soon!!</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Man.jpg">
+                    <div class="layer">
+                        <h3>No works yet</h3>
+                        <p>Will be coming soon!!</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Man.jpg">
+                    <div class="layer">
+                        <h3>No works yet</h3>
+                        <p>Will be coming soon!!</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="butn">See more</a>
+        </div> 
+    </div>
+    <hr><br>
+    <!----------------------Contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">  
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>daoudafzal07@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+32 473 62 07 36</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/daoudafzal/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Images/Man.jpg" download class="butn btn2">Download Image</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="butn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Daoud. Made with Dafzl</p>
+        </div>
+    </div>
+    <!----------------------Scripts----------------------->
+    <script src="Code/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('.input', {
+            strings:['Daoud Afzal.', 'Dahoot.', 'a programmer.', 'just an idiot'],
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop:true
+    });</script>
+</body>
+</html>
